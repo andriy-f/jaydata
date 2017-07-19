@@ -2,6 +2,19 @@
 # yarn lockfile v1
 
 
+"@andriyf/jaydata-dynamic-metadata@^0.1.1803":
+  version "0.1.1803"
+  resolved "https://registry.yarnpkg.com/@andriyf/jaydata-dynamic-metadata/-/jaydata-dynamic-metadata-0.1.1803.tgz#c25f0cdf998ff4b23e82d0e0eb6b1036315b861e"
+  dependencies:
+    "@andriyf/odatajs" "^4.0.1"
+    "@types/es6-promise" "0.0.32"
+    "@types/extend" "^2.0.30"
+    "@types/reflect-metadata" "0.0.5"
+    extend "^3.0.0"
+    jaydata-error-handler "^0.0.1"
+    jaydata-promise-handler "^0.0.1"
+    odata-v4-metadata "^0.1.3"
+
 "@andriyf/odatajs@^4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@andriyf/odatajs/-/odatajs-4.0.1.tgz#7eed0a5d3aa1528d69c20af28c6f34d6f27e056e"
@@ -3585,28 +3598,9 @@ jaguarjs-jsdoc@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/jaguarjs-jsdoc/-/jaguarjs-jsdoc-0.0.1.tgz#2f399ab61dbfce4b7794939a2d5a379a8e5df0c1"
 
-jaydata-dynamic-metadata@^0.1.17:
-  version "0.1.18"
-  resolved "https://registry.yarnpkg.com/jaydata-dynamic-metadata/-/jaydata-dynamic-metadata-0.1.18.tgz#9ba3703288641c62620f1380c901b1e5f109b606"
-  dependencies:
-    "@types/es6-promise" "0.0.32"
-    "@types/extend" "^2.0.30"
-    "@types/reflect-metadata" "0.0.5"
-    extend "^3.0.0"
-    jaydata-error-handler "^0.0.1"
-    jaydata-odatajs "^4.0.1"
-    jaydata-promise-handler "^0.0.1"
-    odata-v4-metadata "^0.1.3"
-
 jaydata-error-handler@^0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/jaydata-error-handler/-/jaydata-error-handler-0.0.1.tgz#53927466ca3a49df4b286dc6f39c021e3b31fe60"
-
-jaydata-odatajs@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/jaydata-odatajs/-/jaydata-odatajs-4.0.1.tgz#b67098124ddad87f511237ef58889e494ee1e3a6"
-  dependencies:
-    xmldom "^0.1.19"
 
 jaydata-promise-handler@^0.0.1:
   version "0.0.1"
